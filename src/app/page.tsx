@@ -4,7 +4,7 @@ import Navbar from "./Components/Navbar";
 export default function Home() {
   return (
     <div >
-        <div className="block pb-8">
+        <div className="block pb-8 relative z-20">
       <Navbar />
       {/*  */}
       <section className="topHero flex pt-20 leading-7 px-5 text-center">
