@@ -12,7 +12,7 @@ export default function RootLayout({
         head.tsx. Find out more at https://beta.nextjs.org/docs/api-reference/file-conventions/head
       */}
       <head />
-      <body className=' overflow-hidden h-screen'>{children}</body>
+      <body className=' overflow-hidden min-h-screen m-0'>{children}</body>
     </html>
   )
 }
