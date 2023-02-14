@@ -56,7 +56,7 @@ export default function Home() {
             <div className="nav-item">
               <Link 
               href="/contact" 
-              className="nav-link text-7xl">
+              className="nav-link text-7xl  text-red-300 ">
                 Contact
               </Link>
             </div>
