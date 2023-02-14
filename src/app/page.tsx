@@ -3,7 +3,8 @@ import Navbar from "./Components/Navbar";
 
 export default function Home() {
   return (
-    <div>
+    <div >
+        <div className="block">
       <Navbar />
       {/*  */}
       <section className="topHero flex  pt-24 leading-7 px-5 text-center">
@@ -64,6 +65,7 @@ export default function Home() {
           </div>
         </div>
       </section>
+      </div>
     </div>
   );
 }
