@@ -7,7 +7,7 @@ export default function Home() {
         <div className="block pb-8 relative z-20">
       <Navbar />
       {/*  */}
-      <section className="topHero flex pt-20 leading-7 px-5 text-center">
+      <section className="topHero pt-12 leading-7 px-5 text-center">
         <div className="content content-main">
           <div className="header-mask">
             <h1 className="header-my-name text-2xl pb-4 ">Ricardo Paredes</h1>
