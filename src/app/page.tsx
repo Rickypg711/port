@@ -20,7 +20,7 @@ export default function Home() {
           </div>
           <div className="description-mask">
             <p className="description transform">
-              Currently the boos at <br /><Link href="https://www.lasvegas.com/" target="_blank" className="cursor-pointer text-teal-400">
+              Currently the boss at <br /><Link href="https://www.lasvegas.com/" target="_blank" className="cursor-pointer text-teal-400">
                  Las vegas
               </Link>
               <br />
