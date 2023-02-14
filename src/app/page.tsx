@@ -38,7 +38,7 @@ export default function Home() {
             <div className="nav-item">
               <Link 
               href="/work" 
-              className="nav-link text-7xl">
+              className="nav-link text-7xl text-green-300">
                 Work
               </Link>
             </div>
