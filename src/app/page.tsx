@@ -4,10 +4,10 @@ import Navbar from "./Components/Navbar";
 export default function Home() {
   return (
     <div >
-        <div className="block">
+        <div className="block pb-8">
       <Navbar />
       {/*  */}
-      <section className="topHero flex  pt-24 leading-7 px-5 text-center">
+      <section className="topHero flex pt-20 leading-7 px-5 text-center">
         <div className="content content-main">
           <div className="header-mask">
             <h1 className="header-my-name text-2xl pb-4 ">Ricardo Paredes</h1>
@@ -31,7 +31,7 @@ export default function Home() {
       </section>
 
       {/*  */}
-      <section className="bottom pt-16 ">
+      <section className="bottom pt-11 pb-11 mb-2">
         <div className="section-right text-center">
           <div className="nav">
             {/* work */}
