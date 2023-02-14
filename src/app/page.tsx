@@ -14,15 +14,14 @@ export default function Home() {
           </div>
           <div className="description-mask">
             <p className="description transform ">
-              Strategic Product Designer and Webflow Developer
+              front end developer and aztec warrior
               <br />
             </p>
           </div>
           <div className="description-mask">
             <p className="description transform">
-              Currently working as a Senior Product Designer at{"  "}
-              <Link href="https://detail.co/" target="_blank">
-                Detail Technologies
+              Currently the boos at <br /><Link href="https://www.lasvegas.com/" target="_blank" className="cursor-pointer text-teal-400">
+                 Las vegas
               </Link>
               <br />
             </p>
