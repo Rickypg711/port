@@ -15,6 +15,7 @@ export default function Home() {
           <div className="description-mask">
             <p className="description transform ">
               front end developer and aztec warrior
+              milo sucks
               <br />
             </p>
           </div>
