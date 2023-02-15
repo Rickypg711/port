@@ -66,7 +66,7 @@ export default function Home() {
               Follow me on Twitter
             </a>
             <a
-              href="mailto:lee@leerob.io"
+              href="mailto:paredesricardog@gmail.com"
               className="w-full md:w-auto py-3 px-6 text-center text-gray-700 font-bold rounded-lg border border-gray-400 hover:border-blue-600 transition-all"
             >
               Get in touch
