@@ -60,9 +60,9 @@ export default function Home() {
         {/*  */}
         <section className="bottom pt-5 pb-11 mb-2 ">
           <div className="section-right text-center mx-auto px-2">
-            <div className="nav">
+            <div className="  ">
               {/* aboiut */}
-              <div className="nav-item">
+              <div className=" py-2">
                 <Link
                   href="/about"
                   className={`${playFairDisplay.className} text-7xl transition-all hover:line-through decoration-teal-200 `}
@@ -72,7 +72,7 @@ export default function Home() {
               </div>
 
               {/* work */}
-              <div className="nav-item">
+              <div className="py-2">
                 <Link
                   href="/projects"
                   className={`${playFairDisplay.className} text-7xl transition-all hover:line-through decoration-teal-200 `}
@@ -82,10 +82,10 @@ export default function Home() {
               </div>
 
               {/* contact */}
-              <div className="nav-item">
+              <div className="py-2">
                 <Link
                   href="/contact"
-                  className={`${playFairDisplay.className} text-7xl transition-all hover:line-through decoration-teal-200 `}
+                  className={`${playFairDisplay.className} pt-4 text-7xl transition-all hover:line-through decoration-teal-200 `}
                 >
                   CONTACT
                 </Link>
