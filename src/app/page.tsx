@@ -2,6 +2,19 @@ import Link from "next/link";
 import Navbar from "./Components/Navbar";
 import Image from "next/image";
 import me from "../../public/IMG_0085.jpeg";
+import {Montserrat, Playfair_Display,  } from '@next/font/google'
+
+const montserrat = Montserrat({
+  weight: ['400', '700'],
+  subsets: ['latin'],
+  // variable: '--montserrat',
+});
+
+const playFairDisplay = Playfair_Display({
+  weight: ['400', '700'],
+  subsets: ['latin'],
+  // variable: '--font-playFairDisplay',
+});
 
 export default function Home() {
   return (
@@ -14,7 +27,7 @@ export default function Home() {
         <section className="topHero bg-white dark:bg-gray-900 py-8 md:py-16  px-5 text-center">
           <div className="max-w-5xl mx-auto px-6 md:px-8 lg:px-10">
             <div className="header-mask">
-              <h1 className="text-3xl md:text-4xl font-bold font-serif text-gray-800 dark:text-white mb-6">
+            <h1 className={` ${playFairDisplay.className} text-3xl md:text-4xl font-bold text-teal-800 dark:text-white mb-6`}>
                 Ricardo Paredes
               </h1>
             </div>
@@ -50,8 +63,8 @@ export default function Home() {
 
               {/* work */}
               <div className="nav-item">
-                <Link href="/work" className="nav-link text-7xl text-green-300">
-                  Work
+                <Link href="/projects" className="nav-link text-7xl text-green-300">
+                  Projects
                 </Link>
               </div>
 

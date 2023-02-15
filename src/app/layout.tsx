@@ -1,4 +1,17 @@
 import './globals.css'
+import {Montserrat, Playfair_Display,  } from '@next/font/google'
+
+const montserrat = Montserrat({
+  weight: ['400', '700'],
+  subsets: ['latin'],
+  // variable: '--montserrat',
+});
+
+// const playFairDisplay = Playfair_Display({
+//   weight: ['400', '700'],
+//   subsets: ['latin'],
+//   variable: '--font-playFairDisplay',
+// });
 
 export default function RootLayout({
   children,
@@ -12,7 +25,7 @@ export default function RootLayout({
         head.tsx. Find out more at https://beta.nextjs.org/docs/api-reference/file-conventions/head
       */}
       <head />
-      <body className=' overflow-auto min-h-screen m-0'>{children}</body>
+      <body className={` ${montserrat.className} overflow-auto min-h-screen m-0`}>{children}</body>
     </html>
   )
 }
