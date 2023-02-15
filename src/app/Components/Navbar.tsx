@@ -13,7 +13,7 @@ export default function Navbar() {
          <div className="ml-2 mr-6">
            <Link
              href="https://www.linkedin.com/in/ricardo-paredes-a2993a205/"
-             className="text-teal-400 text-3xl"
+             className="text-teal-200 text-3xl hover:text-violet-200 transition-all"
              target="_blank"
            >
              <AiFillLinkedin />
@@ -23,7 +23,7 @@ export default function Navbar() {
      <div className="mr-6">
         <Link
              href="https://twitter.com/Rickypg711"
-             className="nav-left-link text-teal-400 text-3xl"
+             className="nav-left-link text-teal-200 text-3xl hover:text-violet-200 transition-all"
              target="_blank"
            >
              <AiFillTwitterCircle />
@@ -32,15 +32,16 @@ export default function Navbar() {
         <div className="mr-6">
           <Link
             href="https://www.instagram.com/rickyparedess/"
-            className="nav-left-link text-teal-400 text-3xl"
+            className="nav-left-link text-teal-200 text-3xl hover:text-violet-200 transition-all"
             target="_blank"
           >
             <AiFillInstagram />
           </Link>
         </div>
-        <div className=" flex-grow h-px bg-gray-900 mx-auto"></div>
-        <div className=" text-red-300">
-          <div className="  ml-16 mr-3 text-teal-400 text-2xl">©/2022</div>
+        
+        <div className=" flex-grow h-px bg-violet-200 mx-auto"></div>
+        <div className="">
+          <div className="  ml-7 mr-3 text-teal-200 text-xl">©/2023</div>
         </div>
       </div>
 

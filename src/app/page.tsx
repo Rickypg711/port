@@ -2,17 +2,17 @@ import Link from "next/link";
 import Navbar from "./Components/Navbar";
 import Image from "next/image";
 import me from "../../public/IMG_0085.jpeg";
-import {Montserrat, Playfair_Display,  } from '@next/font/google'
+import { Montserrat, Playfair_Display } from "@next/font/google";
 
 const montserrat = Montserrat({
-  weight: ['400', '700'],
-  subsets: ['latin'],
+  weight: ["400", "700"],
+  subsets: ["latin"],
   // variable: '--montserrat',
 });
 
 const playFairDisplay = Playfair_Display({
-  weight: ['400', '700'],
-  subsets: ['latin'],
+  weight: ["400", "700"],
+  subsets: ["latin"],
   // variable: '--font-playFairDisplay',
 });
 
@@ -24,10 +24,12 @@ export default function Home() {
         {/*  */}
         {/* leading-7 */}
 
-        <section className="topHero bg-white dark:bg-gray-900 py-8 md:py-16  px-5 text-center">
+        <section className=" py-8 md:py-16  px-5 text-center">
           <div className="max-w-5xl mx-auto px-6 md:px-8 lg:px-10">
             <div className="header-mask">
-            <h1 className={` ${playFairDisplay.className} text-3xl md:text-4xl font-bold text-teal-800 dark:text-white mb-6`}>
+              <h1
+                className={` ${playFairDisplay.className} text-3xl md:text-4xl font-bold  mb-6`}
+              >
                 Ricardo Paredes
               </h1>
             </div>
@@ -41,9 +43,14 @@ export default function Home() {
                 className="hidden md:block rounded-full object-cover grayscale"
               />
 
-              <p className="text-gray-800 dark:text-white text-lg font-medium max-w-lg">
-                Hey, Im Ricardo. Im a <b>Web Developer</b> striving to build a
-                faster, accessible and more beautiful web.
+              <p className=" text-lg font-medium max-w-lg">
+                Hey, Im Ricardo. Im a{" "}
+                <b
+                  className={`${playFairDisplay.className} font-bold text-teal-200`}
+                >
+                  Web Developer
+                </b>{" "}
+                striving to build a faster, accessible and more beautiful web.
               </p>
             </div>
           </div>
@@ -51,20 +58,26 @@ export default function Home() {
         {/*  */}
 
         {/*  */}
-        <section className="bottom pt-11 pb-11 mb-2">
-          <div className="section-right text-center">
+        <section className="bottom pt-5 pb-11 mb-2 ">
+          <div className="section-right text-center mx-auto px-2">
             <div className="nav">
               {/* aboiut */}
               <div className="nav-item">
-                <Link href="/about" className="nav-link text-7xl">
-                  About
+                <Link
+                  href="/about"
+                  className={`${playFairDisplay.className} text-7xl transition-all hover:line-through decoration-teal-200 `}
+                >
+                  ABOUT
                 </Link>
               </div>
 
               {/* work */}
               <div className="nav-item">
-                <Link href="/projects" className="nav-link text-7xl text-green-300">
-                  Projects
+                <Link
+                  href="/projects"
+                  className={`${playFairDisplay.className} text-7xl transition-all hover:line-through decoration-teal-200 `}
+                >
+                  PROJECTS
                 </Link>
               </div>
 
@@ -72,9 +85,9 @@ export default function Home() {
               <div className="nav-item">
                 <Link
                   href="/contact"
-                  className="nav-link text-7xl  text-red-300 "
+                  className={`${playFairDisplay.className} text-7xl transition-all hover:line-through decoration-teal-200 `}
                 >
-                  Contact
+                  CONTACT
                 </Link>
               </div>
             </div>
