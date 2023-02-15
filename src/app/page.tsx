@@ -34,14 +34,7 @@ export default function Home() {
       <section className="bottom pt-11 pb-11 mb-2">
         <div className="section-right text-center">
           <div className="nav">
-            {/* work */}
-            <div className="nav-item">
-              <Link 
-              href="/work" 
-              className="nav-link text-7xl text-green-300">
-                Work
-              </Link>
-            </div>
+            
 
             {/* aboiut */}
             <div className="nav-item">
@@ -49,6 +42,15 @@ export default function Home() {
               href="/about" 
               className="nav-link text-7xl">
                 About
+              </Link>
+            </div>
+
+            {/* work */}
+            <div className="nav-item">
+              <Link 
+              href="/work" 
+              className="nav-link text-7xl text-green-300">
+                Work
               </Link>
             </div>
 

@@ -19,6 +19,7 @@ export default function Navbar() {
             <AiFillLinkedin />
           </Link>
         </div>
+        
         <div className="mr-6">
           <Link
             href="https://twitter.com/Rickypg711"
