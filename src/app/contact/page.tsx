@@ -48,12 +48,7 @@ export default function Navbar() {
                   <br />
                   <br />
                   Email:{" "}
-                  <a
-                    href="mailto:hello@lauren-waller.com"
-                    className="link text-pink-500"
-                  >
-                    hello@lauren-waller.com
-                  </a>
+               
                   <br />
                   On the Internet: {/*  */}
                   {/* <div className="flex flex-row justify-center py-3 px-6 md:items-center md:justify-between">
