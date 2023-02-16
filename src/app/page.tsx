@@ -81,7 +81,7 @@ export default function Home() {
               <div className=" py-2">
                 <Link
                   href="/about"
-                  className={`${playFairDisplay.className} text-7xl transition-all hover:line-through decoration-teal-200 `}
+                  className={`${playFairDisplay.className} text-7xl transition-all hover:line-through decoration-teal-200 underline decoration-2 `}
                 >
                   ABOUT
                 </Link>
@@ -91,7 +91,7 @@ export default function Home() {
               <div className="py-2">
                 <Link
                   href="/projects"
-                  className={`${playFairDisplay.className} text-7xl transition-all hover:line-through decoration-teal-200 `}
+                  className={`${playFairDisplay.className} text-7xl transition-all hover:line-through decoration-teal-200 underline decoration-2 `}
                 >
                   PROJECTS
                 </Link>
@@ -101,7 +101,7 @@ export default function Home() {
               <div className="py-2">
                 <Link
                   href="/contact"
-                  className={`${playFairDisplay.className} pt-4 text-7xl transition-all hover:line-through decoration-teal-200 `}
+                  className={`${playFairDisplay.className} pt-4 text-7xl transition-all hover:line-through decoration-teal-200  underline  decoration-2`}
                 >
                   CONTACT
                 </Link>
