@@ -1,5 +1,6 @@
 import { Montserrat, Playfair_Display } from "@next/font/google";
-
+import Image from "next/image";
+import me from "../../../public/IMG_0085.jpeg"
 const montserrat = Montserrat({
   weight: ["400", "700"],
   subsets: ["latin"],
@@ -57,8 +58,15 @@ export default function Home() {
             >
               aztec Warrior
             </b>{" "}
-            online.
+            online.  <Image
+                alt="Ricardo Paredes"
+                src={me}
+                width="150"
+                height="150"
+                className="hidden md:block  rounded-full object-cover grayscale text-right"
+              />
           </p>
+         
           <div className=" text-violet-200  mb-8">
             <p>
               Im currently the{" "}

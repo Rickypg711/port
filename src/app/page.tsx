@@ -16,72 +16,64 @@ const playFairDisplay = Playfair_Display({
   // variable: '--font-playFairDisplay',
 });
 
-{/* <Image
-                alt="Ricardo Paredes"
-                src={me}
-                width="150"
-                height="150"
-                className="hidden md:block rounded-full object-cover grayscale"
-              /> */}
 
 export default function Home() {
   return (
     <div>
-      <div className="block pb-8 relative z-20">
-        <Navbar />
+      <Navbar />
+      <div className="block pb-8 relative  md:flex md:justify-center md:">
         {/*  */}
 
-
-
         {/*  */}
-        <section className=" bg-slate-800 pt-4 px-4 sm:px-6 lg:py-16 lg:px-8">
-        <div className="max-w-5xl mx-auto">
-          <h1
-            className={`${playFairDisplay.className} pt-5 text-center text-3xl font-bold  text-violet-200  mb-5`}
-          >
-            Ricardo Paredes 
-          </h1>
-          <p className="text-violet-200  mb-8">
-          Hey, Im Ricardo. Im a{" "}
-                <b
-                  className={`${playFairDisplay.className} font-bold text-teal-200`}
-                >
-                  Web Developer
-                </b>{" "}
-                striving to build a faster, accessible and more beautiful web.
-          </p>
-          
-          <div className="flex flex-col md:flex-row md:items-center md:justify-between">
-            <Link
-              href="mailto:paredesricardog@gmail.com"
-              className={` ${playFairDisplay.className} w-full md:w-auto py-3 px-6 text-center text-teal-200 font-bold rounded-lg border-2 border-teal-200 hover:border-violet-200 transition-all hover:text-violet-200`}
+        <section className=" bg-slate-800 pt-4 px-4 sm:px-6 lg:pt-16 lg:px-8 items-end md:flex md:align-bottom ">
+          <div className="max-w-xl  mx-auto md ">
+          <Image
+                alt="Ricardo Paredes"
+                src={me}
+                width="150"
+                height="150"
+                className="hidden md:block  rounded-full object-cover grayscale text-right"
+              />
+         
+            <h1
+              className={`${playFairDisplay.className} text-3xl font-bold  text-violet-200  mb-5`}
             >
-              Get in touch
-            </Link>
-          
+              Ricardo Paredes
+            </h1>
+            <p className="text-violet-200  mb-8">
+              Hey, Im Ricardo. Im a{" "}
+              <b
+                className={`${playFairDisplay.className} font-bold text-teal-200`}
+              >
+                Web Developer
+              </b>{" "}
+              striving to build a faster, accessible and more beautiful web.
+            </p>
+
+            <div className="flex flex-col  md:justify-between">
+              <Link
+                href="mailto:paredesricardog@gmail.com"
+                className={` ${playFairDisplay.className} w-full md:w-auto py-3 px-6 text-center text-teal-200 font-bold rounded-lg border-2 border-teal-200 hover:border-violet-200 transition-all hover:text-violet-200`}
+              >
+                Get in touch
+              </Link>
+            </div>
           </div>
-        </div>
-      </section>
-
-        {/*  */}
-
-
-
-
-
-
+        </section>
 
         {/*  */}
 
         {/*  */}
-        <section className="bottom pt-5 pb-11 mb-2 ">
-          <div className="section-right text-center mx-auto px-2">
-            <div className="  ">
+
+        {/*  */}
+        <section className="bottom pt-5 ">
+          {/* <div className="px-2 border-2 border-teal-500 md:pt-5" > */}
+            <div className="text-center mx-auto  md:flex flex-col md:align-text-bottom md:pt-12 md:pt-20">
               {/* aboiut */}
-              <div className=" py-2">
+              <div className=" py-2 ">
                 <Link
                   href="/about"
-                  className={`${playFairDisplay.className} text-7xl transition-all hover:line-through decoration-teal-200  decoration-2`}
+                  className={`${playFairDisplay.className} text-7xl md:text-8xl lg:text-9xl transition-all hover:line-through decoration-teal-200  decoration-2`}
                 >
                   ABOUT
                 </Link>
@@ -91,7 +83,7 @@ export default function Home() {
               <div className="py-2">
                 <Link
                   href="/projects"
-                  className={`${playFairDisplay.className} text-7xl transition-all hover:line-through decoration-teal-200 decoration-2 `}
+                  className={`${playFairDisplay.className} text-7xl md:text-8xl lg:text-9xl transition-all hover:line-through decoration-teal-200 decoration-2 `}
                 >
                   PROJECTS
                 </Link>
@@ -101,13 +93,13 @@ export default function Home() {
               <div className="py-2">
                 <Link
                   href="/contact"
-                  className={`${playFairDisplay.className} pt-4 text-7xl transition-all hover:line-through decoration-teal-200  decoration-2 `}
+                  className={`${playFairDisplay.className}  text-7xl md:text-8xl lg:text-9xl transition-all hover:line-through decoration-teal-200  decoration-2 `}
                 >
                   CONTACT
                 </Link>
               </div>
             </div>
-          </div>
+          {/* </div> */}
         </section>
       </div>
     </div>
