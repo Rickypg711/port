@@ -16,45 +16,61 @@ const playFairDisplay = Playfair_Display({
   // variable: '--font-playFairDisplay',
 });
 
+{/* <Image
+                alt="Ricardo Paredes"
+                src={me}
+                width="150"
+                height="150"
+                className="hidden md:block rounded-full object-cover grayscale"
+              /> */}
+
 export default function Home() {
   return (
     <div>
       <div className="block pb-8 relative z-20">
         <Navbar />
         {/*  */}
-        {/* leading-7 */}
 
-        <section className=" py-8 md:py-16  px-5 text-center">
-          <div className="max-w-5xl mx-auto px-6 md:px-8 lg:px-10">
-            <div className="header-mask">
-              <h1
-                className={` ${playFairDisplay.className} text-3xl md:text-4xl font-bold  mb-6`}
-              >
-                Ricardo Paredes
-              </h1>
-            </div>
 
-            <div className="flex items-center space-x-4 md:space-x-8 mb-6 md:mb-8">
-              <Image
-                alt="Ricardo Paredes"
-                src={me}
-                width="150"
-                height="150"
-                className="hidden md:block rounded-full object-cover grayscale"
-              />
 
-              <p className=" text-lg font-medium max-w-lg">
-                Hey, Im Ricardo. Im a{" "}
+        {/*  */}
+        <section className=" bg-slate-800 pt-4 px-4 sm:px-6 lg:py-16 lg:px-8">
+        <div className="max-w-5xl mx-auto">
+          <h1
+            className={`${playFairDisplay.className} pt-5 text-center text-3xl font-bold  text-violet-200  mb-5`}
+          >
+            Ricardo Paredes 
+          </h1>
+          <p className="text-violet-200  mb-8">
+          Hey, Im Ricardo. Im a{" "}
                 <b
                   className={`${playFairDisplay.className} font-bold text-teal-200`}
                 >
                   Web Developer
                 </b>{" "}
                 striving to build a faster, accessible and more beautiful web.
-              </p>
-            </div>
+          </p>
+          
+          <div className="flex flex-col md:flex-row md:items-center md:justify-between">
+            <Link
+              href="mailto:paredesricardog@gmail.com"
+              className={` ${playFairDisplay.className} w-full md:w-auto py-3 px-6 text-center text-teal-200 font-bold rounded-lg border-2 border-teal-200 hover:border-violet-200 transition-all hover:text-violet-200`}
+            >
+              Get in touch
+            </Link>
+          
           </div>
-        </section>
+        </div>
+      </section>
+
+        {/*  */}
+
+
+
+
+
+
+
         {/*  */}
 
         {/*  */}
