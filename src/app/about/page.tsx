@@ -67,8 +67,7 @@ export default function Home() {
               >
                 VP of Developer Experience at my House
               </b>
-              , where I lead the Development of new web tools . i focus on
-              <b
+              , where I lead the Development of new web tools . i focus on  <b
                 className={`${playFairDisplay.className} font-bold text-teal-200`}
               >
                 educating and growing
